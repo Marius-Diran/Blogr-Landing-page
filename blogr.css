@@ -7,3 +7,33 @@
     box-sizing: border-box;
 }
 
+#nav-div{
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    /* background-image: url('Images/bg-pattern-intro-desktop.svg');
+    background-size: 30%;
+    background-repeat: no-repeat; */
+    height: 40rem;
+    width: 100%;
+}
+
+.logo-nav{
+    margin: 2rem 0 0 6rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* margin: 0 2rem 0 0; */
+}
+
+.nav-bar ul li p{
+    display: inline-block;
+    margin: 0 2rem 0 0;
+}
+
+.nav-bar ul li img{
+    display: inline-block;
+    margin: 0 0 0 0;
+}
