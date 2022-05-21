@@ -25,15 +25,48 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    /* margin: 0 2rem 0 0; */
+    position: relative;
+    top: -1.8rem;
+    right: 16rem;
 }
 
 .nav-bar ul li p{
     display: inline-block;
     margin: 0 2rem 0 0;
+    font-size: 0.9rem;
+    color: hsl(0 0% 100%);
 }
 
 .nav-bar ul li img{
     display: inline-block;
-    margin: 0 0 0 0;
+    position: relative;
+    left: -1.6rem;
+}
+
+.login-btn{
+    position: relative;
+    left: 70rem;
+    top: -2.5rem;
+    color: hsl(0 0% 100%);
+    background: none;
+    border: none;
+}
+
+.signup-btn{
+    position: relative;
+    left: 72rem;
+    top: -2.5rem;
+    color: hsl(13, 100%, 72%);
+    background-color: hsl(0 0% 100%);
+    border: none;
+    border-radius: 1rem;
+    width: 6%;
+    height: 1.7rem;
+    text-align: center;
+}
+
+#nav-div h2{
+    margin: 4rem 0 0 30rem;
+    color: hsl(0 0% 100%);
+    font-size: 2rem;
 }
