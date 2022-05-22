@@ -7,11 +7,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
 #nav-div{
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     /* background-image: url("Images/bg-pattern-intro-desktop.svg"); */
     /* background-size: 30rem; */
-    height: 30rem;
+    min-height: 30rem;
     width: 100%;
     border-bottom-left-radius: 6rem;
 }
@@ -71,7 +75,6 @@
     text-align: center;
     color: hsl(0 0% 100%);
     font-size: 3.5rem;
-    font-family: 'Overpass', sans-serif;
     font-weight: 300;
 }
 
@@ -119,4 +122,17 @@
     font-size: 2rem;
     text-align: center;
     margin: 8rem 0 0 0;
+}
+
+#theone h3{
+    color: hsl(208, 49%, 24%);
+    font-size: 1.5rem;
+    margin: 5rem 0 0 13rem;
+}
+
+#theone .p-1{
+    color: hsl(207, 13%, 34%);
+    max-width: 37%;
+    margin: 2.5rem 0 0 13rem;
+    line-height: 1.7rem;
 }
