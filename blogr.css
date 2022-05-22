@@ -9,11 +9,11 @@
 
 #nav-div{
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    /* background-image: url('Images/bg-pattern-intro-desktop.svg');
-    background-size: 30%;
-    background-repeat: no-repeat; */
-    height: 40rem;
+    /* background-image: url("Images/bg-pattern-intro-desktop.svg"); */
+    /* background-size: 30rem; */
+    height: 30rem;
     width: 100%;
+    border-bottom-left-radius: 6rem;
 }
 
 .logo-nav{
@@ -75,7 +75,7 @@
     font-weight: 300;
 }
 
-#nav-div p{
+#nav-div .p-1{
     text-align: center;
     color:rgb(219, 219, 219)
 }
@@ -94,7 +94,7 @@
 
 .learn-btn{
     position: relative;
-    left: 37rem;
+    left: 36rem;
     top: 2rem;
     color: hsl(0 0% 100%);
     background: none;
@@ -102,4 +102,14 @@
     width: 8%;
     height: 1.9rem;
     border-radius: 1rem;
+}
+
+#theone{
+    border: 1px solid red;
+    width: 100%;
+    height: 40rem;
+    background-image: url("Images/illustration-editor-desktop.svg");
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position: 63rem 5rem;
 }
