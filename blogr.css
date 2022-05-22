@@ -109,7 +109,14 @@
     width: 100%;
     height: 40rem;
     background-image: url("Images/illustration-editor-desktop.svg");
-    background-size: 30rem;
+    background-size: 40rem;
     background-repeat: no-repeat;
-    background-position: 63rem 5rem;
+    background-position: 56rem 5rem;
+}
+
+#theone h2{
+    color: hsl(208, 49%, 24%);
+    font-size: 2rem;
+    text-align: center;
+    margin: 8rem 0 0 0;
 }
