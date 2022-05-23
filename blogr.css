@@ -155,6 +155,7 @@ body{
 }
 
 #secone{
+    margin: 3rem 0 0 0;
     width: 100%;
     min-height: 25rem;
     background: linear-gradient(to right, rgb(44, 45, 63), rgb(63, 65, 100));
@@ -181,7 +182,7 @@ body{
 }
 
 #secone h2{
-    margin: -55rem 0 0 46rem;
+    margin: -52rem 0 0 46rem;
     font-size: 2rem;
     color:hsl(0 0% 100%);
 }
