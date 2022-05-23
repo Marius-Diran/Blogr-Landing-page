@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Overpass', sans-serif;
+    height: 200rem;
 }
 
 #nav-div{
@@ -155,24 +156,39 @@ body{
 
 #secone{
     width: 100%;
-    min-height: 50rem;
+    min-height: 25rem;
     background: linear-gradient(to right, rgb(44, 45, 63), rgb(63, 65, 100));
-    z-index: 0;
+    border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
 }
 
 .secone-img{
-    border: 1px solid red;
     background-image: url("Images/illustration-phones.svg");
-    background-size: 37rem, 70rem;
+    background-size: 37rem;
     background-repeat: no-repeat;
-    background-position: 5rem 0, -8rem -20rem;
-    height: 30rem;
+    background-position: 5rem 0;
+    height: 35rem;
     position: relative;
-    top: 0rem;
-    z-index: 0;
+    top: -32rem;
+}
+
+.secone-img2{
+    background-image: url("Images/bg-pattern-circles.svg");
+    background-size: 60rem;
+    background-repeat: no-repeat;
+    background-position: -8rem -25rem;
+    height: 25rem;
 }
 
 #secone h2{
-    margin: 0 0 0 0;
+    margin: -55rem 0 0 46rem;
+    font-size: 2rem;
+    color:hsl(0 0% 100%);
 }
 
+#secone .p-1{
+    color:hsl(0 0% 100%);
+    width: 38%;
+    line-height: 1.7rem;
+    margin: 1rem 0 0 46rem;
+}
