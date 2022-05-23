@@ -13,15 +13,24 @@ body{
 
 #nav-div{
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    /* background-image: url("Images/bg-pattern-intro-desktop.svg"); */
-    /* background-size: 30rem; */
     min-height: 30rem;
     width: 100%;
     border-bottom-left-radius: 6rem;
 }
 
+.nav-img{
+    background-image: url("Images/bg-pattern-intro-desktop.svg");
+    background-size: 110rem;
+    background-repeat: no-repeat;
+    background-position: 6rem -40rem;
+    min-height: 30rem;
+    width: 100%;
+}
+
 .logo-nav{
-    margin: 2rem 0 0 6rem;
+    position: relative;
+    top: -28rem;
+    left: 4rem;
 }
 
 .nav-bar ul{
@@ -30,7 +39,7 @@ body{
     align-items: center;
     list-style: none;
     position: relative;
-    top: -1.8rem;
+    top: -29.8rem;
     right: 18rem;
 }
 
@@ -50,7 +59,7 @@ body{
 .login-btn{
     position: relative;
     left: 68rem;
-    top: -2.5rem;
+    top: -31rem;
     color: hsl(0 0% 100%);
     background: none;
     border: none;
@@ -60,7 +69,7 @@ body{
 .signup-btn{
     position: relative;
     left: 69rem;
-    top: -2.5rem;
+    top: -31rem;
     color: hsl(13, 100%, 72%);
     background-color: hsl(0 0% 100%);
     border: none;
@@ -71,7 +80,7 @@ body{
 }
 
 #nav-div h2{
-    margin: 4rem 0 0 0;
+    margin: -23rem 0 0 0;
     text-align: center;
     color: hsl(0 0% 100%);
     font-size: 3.5rem;
@@ -80,6 +89,7 @@ body{
 
 #nav-div .p-1{
     text-align: center;
+    margin: 1rem 0 0 0;
     color:rgb(219, 219, 219)
 }
 
@@ -108,9 +118,8 @@ body{
 }
 
 #theone{
-    border: 1px solid red;
     width: 100%;
-    height: 40rem;
+    height: 46rem;
     background-image: url("Images/illustration-editor-desktop.svg");
     background-size: 40rem;
     background-repeat: no-repeat;
@@ -133,6 +142,37 @@ body{
 #theone .p-1{
     color: hsl(207, 13%, 34%);
     max-width: 37%;
-    margin: 2.5rem 0 0 13rem;
+    margin: 1.5rem 0 0 13rem;
     line-height: 1.7rem;
 }
+
+#theone .p-2{
+    color:hsl(207, 13%, 34%);
+    max-width: 37%;
+    margin: 1.5rem 0 0 13rem;
+    line-height: 1.7rem;
+}
+
+#secone{
+    width: 100%;
+    min-height: 50rem;
+    background: linear-gradient(to right, rgb(44, 45, 63), rgb(63, 65, 100));
+    z-index: 0;
+}
+
+.secone-img{
+    border: 1px solid red;
+    background-image: url("Images/illustration-phones.svg");
+    background-size: 37rem, 70rem;
+    background-repeat: no-repeat;
+    background-position: 5rem 0, -8rem -20rem;
+    height: 30rem;
+    position: relative;
+    top: 0rem;
+    z-index: 0;
+}
+
+#secone h2{
+    margin: 0 0 0 0;
+}
+
