@@ -230,6 +230,7 @@ footer{
     height: 20rem;
     background: hsl(240, 10%, 16%);
     margin: 4rem 0 0 0;
+    border-top-right-radius: 5rem;
 }
 
 .footer-logo{
