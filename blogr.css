@@ -193,3 +193,35 @@ body{
     line-height: 1.7rem;
     margin: 1rem 0 0 46rem;
 }
+
+#sectwo{
+    height: 45rem;
+    margin: 9rem 0 0 0;
+    background-image: url("Images/illustration-laptop-desktop.svg");
+    background-size: 52rem;
+    background-repeat: no-repeat;
+    background-position: -15rem 0;
+}
+
+#sectwo h3{
+    margin: 10rem 0 0 45rem;
+    display: inline-block;
+    color: hsl(208, 49%, 24%);
+    font-size: 1.5rem;
+}
+
+#sectwo .p-1{
+    width: 37%;
+    line-height: 1.5rem;
+    margin: 1rem 0 0 45rem;
+}
+
+#sectwo .h1{
+    margin: 3rem 0 0 45rem;
+}
+
+#sectwo .p-2{
+    line-height: 1.5rem;
+    width: 38%;
+    margin: 1rem 0 0 45rem;
+}
