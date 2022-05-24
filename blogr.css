@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Overpass', sans-serif;
-    height: 200rem;
+    height: 190rem;
 }
 
 #nav-div{
@@ -224,4 +224,37 @@ body{
     line-height: 1.5rem;
     width: 38%;
     margin: 1rem 0 0 45rem;
+}
+
+footer{
+    height: 20rem;
+    background: hsl(240, 10%, 16%);
+    margin: 4rem 0 0 0;
+}
+
+.footer-logo{
+    margin: 3rem 0 0 5rem;
+}
+
+.a1{
+    position: relative;
+    color: hsl(0 0% 100%);
+    text-decoration: none;
+    margin: 0 0 0 12rem;
+    font-size: 1.1rem;
+}
+
+.list1{
+    margin: 2rem 0 0 22.3rem;
+    list-style: none;
+}
+
+.list1 li{
+    margin: 0.5rem 0 0 0;
+}
+
+.list1 li a{
+    color: hsl(0 0% 100%);
+    font-size: 0.8rem;
+    text-decoration: none;
 }
