@@ -238,7 +238,7 @@ footer{
 
 .a1{
     position: relative;
-    color: hsl(0 0% 100%);
+    color:  hsl(240, 2%, 79%);
     text-decoration: none;
     margin: 0 0 0 12rem;
     font-size: 1.1rem;
@@ -254,7 +254,37 @@ footer{
 }
 
 .list1 li a{
-    color: hsl(0 0% 100%);
+    color:  hsl(240, 2%, 79%);
     font-size: 0.8rem;
     text-decoration: none;
+}
+
+.list2{
+    margin: -8.7rem 0 0 39rem;
+    list-style: none;
+}
+
+.list2 li{
+    margin: 0.5rem 0 0 0;
+}
+
+.list2 li a{
+    color:  hsl(240, 2%, 79%);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.list3{
+    list-style: none;
+    margin: -6.7rem 0 0 55.7rem;
+}
+
+.list3 li{
+    margin: 0.5rem 0 0 0;
+}
+
+.list3 li a{
+    color:  hsl(240, 2%, 79%);
+    text-decoration: none;
+    font-size: 0.8rem;
 }
