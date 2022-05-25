@@ -57,6 +57,27 @@ body{
     left: -2.1rem;
 }
 
+.side-bar1 ul{
+    border-radius: 0.3rem;
+    height: 3rem;
+    width: 9%;
+    background: hsl(0 0% 100%);
+    position: relative;
+    left: 13rem;
+    top: -29rem;
+    display: block;
+}
+
+.side-bar1 ul li{
+    margin: 0.2rem 0 0 1rem;
+}
+
+.side-bar1 ul li a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: hsl(240, 10%, 16%);
+}
+
 .login-btn{
     position: relative;
     left: 68rem;
