@@ -14,7 +14,7 @@ body{
 
 #nav-div{
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    min-height: 30rem;
+    min-height: 60rem;
     width: 100%;
     border-bottom-left-radius: 6rem;
 }
@@ -26,38 +26,36 @@ body{
     background-position: 6rem -40rem;
     min-height: 30rem;
     width: 100%;
+    z-index: 2;
 }
 
 .logo-nav{
-    position: relative;
-    top: -28rem;
-    left: 4rem;
+    margin: 2rem 0 0 4rem;
 }
 
 .nav-bar ul{
+    border: 1px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    position: relative;
-    top: -29.8rem;
-    right: 18rem;
+    margin: -2rem 12rem 0 0;
 }
 
 .nav-bar ul li p{
     display: inline-block;
-    margin: 0 2.6rem 0 0;
     font-size: 0.9rem;
     color: hsl(0 0% 100%);
+    margin: 0 2rem 0 0;
+    /* padding: 0 2rem 0 0; */
 }
 
 .nav-bar ul li img{
     display: inline-block;
-    position: relative;
-    left: -2.1rem;
+    padding: 0 0 0 0.5rem;
 }
 
-.side-bar1 ul{
+/* .side-bar1 ul{
     list-style: none;
     border-radius: 0.3rem;
     height: 10.4rem;
@@ -82,17 +80,19 @@ body{
     color: hsl(240, 10%, 16%);
 }
 
+.side-bar1 ul li a:hover{
+    color: rgb(0, 0, 0,);
+} */
+
 .login-btn{
-    position: relative;
-    left: 68rem;
-    top: -31rem;
     color: hsl(0 0% 100%);
+    border: 1px solid red;
     background: none;
-    border: none;
-    font-size: 1rem
+    font-size: 1rem;
+    padding: 0 0 0 20rem
 }
 
-.signup-btn{
+/* .signup-btn{
     position: relative;
     left: 69rem;
     top: -31rem;
@@ -141,7 +141,7 @@ body{
     width: 8%;
     height: 1.9rem;
     border-radius: 1rem;
-}
+} */
 
 #theone{
     width: 100%;
