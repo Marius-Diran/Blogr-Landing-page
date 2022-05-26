@@ -14,17 +14,17 @@ body{
 
 #nav-div{
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    min-height: 60rem;
+    min-height: 40rem;
     width: 100%;
     border-bottom-left-radius: 6rem;
 }
 
 .nav-img{
     background-image: url("Images/bg-pattern-intro-desktop.svg");
-    background-size: 110rem;
+    background-size: 130rem;
     background-repeat: no-repeat;
-    background-position: 6rem -40rem;
-    min-height: 30rem;
+    background-position: -10rem -40rem;
+    min-height: 40rem;
     width: 100%;
     z-index: 2;
 }
@@ -101,9 +101,9 @@ body{
     height: 2.1rem;
     text-align: center;
 }
-/* 
+
 #nav-div h2{
-    margin: -23rem 0 0 0;
+    margin: 10rem 0 0 0;
     text-align: center;
     color: hsl(0 0% 100%);
     font-size: 3.5rem;
@@ -117,26 +117,22 @@ body{
 }
 
 .start-btn{
-    position: relative;
-    left: 35rem;
-    top: 2rem;
+    margin: 2rem 0 0 34rem;
     border: none;
     border-radius: 1rem;
     background: hsl(0 0% 100%);
     color: hsl(13, 100%, 72%);
-    width: 8%;
-    height: 1.9rem;
+    width: 9%;
+    height: 2.2rem;
 }
 
 .learn-btn{
-    position: relative;
-    left: 36rem;
-    top: 2rem;
+    margin: 0 0 0 1rem;
     color: hsl(0 0% 100%);
     background: none;
     border: 1px solid hsl(0 0% 100%);
-    width: 8%;
-    height: 1.9rem;
+    width: 9%;
+    height: 2.2rem;
     border-radius: 1rem;
 }
 
@@ -310,4 +306,4 @@ footer{
     color:  hsl(240, 2%, 79%);
     text-decoration: none;
     font-size: 0.8rem;
-} */
+}
