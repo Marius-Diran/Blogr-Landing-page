@@ -108,6 +108,33 @@ body{
     color: hsl(0, 0%, 0%);
 }
 
+.side-bar3 ul{
+    list-style: none;
+    border-radius: 0.3rem;
+    height: 7rem;
+    width: 9%;
+    background: hsla(0 0% 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.668);
+    margin: -8.5rem 0 0 24.8rem;
+    display: block;
+    /* visibility: hidden; */
+}
+ 
+.side-bar3 ul li{
+    padding: 0.6rem 0 0 1rem;
+}
+
+.side-bar3 ul li a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: hsla(240, 10%, 16%, 0.802);
+    font-weight: 600;
+}
+
+.side-bar3 ul li a:hover{
+    color: hsl(0, 0%, 0%);
+}
+
 .login-btn{
     color: hsl(0 0% 100%);
     border: none;
