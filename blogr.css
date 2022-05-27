@@ -41,12 +41,12 @@ body{
     margin: -2.4rem 0 0 6rem;
 }
 
-.nav-bar ul li p{
+.nav-bar ul li a{
+    text-decoration: none;
     display: inline-block;
     font-size: 0.9rem;
     color: hsl(0 0% 100%);
     margin: 0 1.5rem 0 0;
-    /* padding: 0 2rem 0 0; */
 }
 
 .nav-bar ul li img{
@@ -117,7 +117,7 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.668);
     margin: -8.5rem 0 0 24.8rem;
     display: block;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
  
 .side-bar3 ul li{
@@ -154,6 +154,11 @@ body{
     text-align: center;
 }
 
+.signup-btn:hover{
+    background-color: hsl(353, 100%, 79%);
+    color: hsl(0 0% 100%);
+}
+
 #nav-div h2{
     margin: 8rem 0 0 0;
     text-align: center;
@@ -178,6 +183,11 @@ body{
     height: 2.2rem;
 }
 
+.start-btn:hover{
+    background: hsl(353, 100%, 79%);
+    color: hsl(0 0% 100%);
+}
+
 .learn-btn{
     margin: 0 0 0 1rem;
     color: hsl(0 0% 100%);
@@ -186,6 +196,11 @@ body{
     width: 9%;
     height: 2.2rem;
     border-radius: 1rem;
+}
+
+.learn-btn:hover{
+    color: hsl(13, 100%, 72%);
+    background-color: hsl(0 0% 100%);
 }
 
 #theone{
@@ -239,8 +254,8 @@ body{
     background-repeat: no-repeat;
     background-position: 5rem 0;
     height: 35rem;
-    position: relative;
-    top: -32rem;
+    margin: -32rem 0 0 0;
+    
 }
 
 .secone-img2{
@@ -252,7 +267,7 @@ body{
 }
 
 #secone h2{
-    margin: -52rem 0 0 46rem;
+    margin: -21rem 0 0 46rem;
     font-size: 2rem;
     color:hsl(0 0% 100%);
 }
@@ -308,7 +323,7 @@ footer{
 }
 
 .a1{
-    position: relative;
+    display: inline-block;
     color:  hsl(240, 2%, 79%);
     text-decoration: none;
     margin: 0 0 0 12rem;
