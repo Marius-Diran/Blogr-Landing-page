@@ -339,7 +339,7 @@ footer{
 
 .list1{
     margin: 0.5rem 0 0 22.4rem;
-    display: inline-block;
+    width: 0;
 }
 
 .list1 a{
@@ -360,6 +360,7 @@ footer{
 }
 
 .list2 a{
+    width: 0;
     color:  hsl(240, 2%, 79%);
     font-size: 0.8rem;
     text-decoration: none;
@@ -367,8 +368,14 @@ footer{
     display: block;
 }
 
+.list2 a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .list3{
     margin: -8rem 0 0 55.5rem;
+    width: 0;
 }
 
 .list3 a{
@@ -377,4 +384,9 @@ footer{
     text-decoration: none;
     padding: 1rem 0 0 0;
     display: block;
+}
+
+.list3 a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
