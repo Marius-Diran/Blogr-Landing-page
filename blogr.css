@@ -14,7 +14,7 @@ body{
 
 #nav-div{
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    min-height: 40rem;
+    min-height: 30rem;
     width: 100%;
     border-bottom-left-radius: 6rem;
 }
@@ -23,14 +23,14 @@ body{
     background-image: url("Images/bg-pattern-intro-desktop.svg");
     background-size: 130rem;
     background-repeat: no-repeat;
-    background-position: -10rem -40rem;
-    min-height: 40rem;
+    background-position: 9rem -50rem;
+    min-height: 30rem;
     width: 100%;
     z-index: 2;
 }
 
 .logo-nav{
-    margin: 4rem 0 0 4rem;
+    margin: 2rem 0 0 4rem;
 }
 
 .nav-bar ul{
@@ -38,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin: -2.4rem 0 0 6rem
+    margin: -2.4rem 0 0 6rem;
 }
 
 .nav-bar ul li p{
@@ -54,34 +54,32 @@ body{
     padding: 0 0 0 0.4rem;
 }
 
-/* .side-bar1 ul{
+.side-bar1 ul{
     list-style: none;
     border-radius: 0.3rem;
     height: 10.4rem;
     width: 9%;
     background: hsla(0 0% 100%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.668);
-    position: relative;
-    left: 13rem;
-    top: -16.5rem;
+    margin: -18rem 0 0 12.5rem;
     display: block;
+    visibility: hidden;
 }
  
 .side-bar1 ul li{
-    position: relative;
-    top: 1rem;
-    margin: 0.5rem 0 0 1rem;
+    padding: 0.6rem 0 0 1rem;
 }
 
 .side-bar1 ul li a{
     font-size: 0.8rem;
     text-decoration: none;
-    color: hsl(240, 10%, 16%);
+    color: hsla(240, 10%, 16%, 0.802);
+    font-weight: 600;
 }
 
 .side-bar1 ul li a:hover{
-    color: rgb(0, 0, 0,);
-} */
+    color: hsl(0, 0%, 0%);
+}
 
 .login-btn{
     color: hsl(0 0% 100%);
@@ -103,7 +101,7 @@ body{
 }
 
 #nav-div h2{
-    margin: 10rem 0 0 0;
+    margin: 8rem 0 0 0;
     text-align: center;
     color: hsl(0 0% 100%);
     font-size: 3.5rem;
