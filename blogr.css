@@ -82,6 +82,7 @@ body{
 
 .side-bar1 ul li a:hover{
     color: hsl(0, 0%, 0%);
+    font-size: 0.9rem;
 }
 
 .side-bar2 ul{
