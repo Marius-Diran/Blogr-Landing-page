@@ -13,6 +13,7 @@ body{
 }
 
 #nav-div{
+    display: flex;
     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     min-height: 30rem;
     width: 100%;
@@ -54,6 +55,10 @@ body{
     padding: 0 0 0 0.4rem;
 }
 
+.side-bar1{
+    visibility: hidden;
+}
+
 .side-bar1 ul{
     list-style: none;
     border-radius: 0.3rem;
@@ -62,8 +67,6 @@ body{
     background: hsla(0 0% 100%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.668);
     margin: -18rem 0 0 12.5rem;
-    display: block;
-    visibility: hidden;
 }
  
 .side-bar1 ul li{
