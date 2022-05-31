@@ -85,6 +85,10 @@ body{
     font-size: 0.9rem;
 }
 
+.side-bar2{
+    visibility: hidden;
+}
+
 .side-bar2 ul{
     list-style: none;
     border-radius: 0.3rem;
@@ -94,7 +98,6 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.668);
     margin: -10.4rem 0 0 18.5rem;
     display: block;
-    visibility: hidden;
 }
  
 .side-bar2 ul li{
@@ -112,6 +115,10 @@ body{
     color: hsl(0, 0%, 0%);
 }
 
+.side-bar3{
+    visibility: hidden;
+}
+
 .side-bar3 ul{
     list-style: none;
     border-radius: 0.3rem;
@@ -121,7 +128,6 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.668);
     margin: -8.5rem 0 0 24.8rem;
     display: block;
-    visibility: hidden;
 }
  
 .side-bar3 ul li{
@@ -144,11 +150,12 @@ body{
     border: none;
     background: none;
     font-size: 1rem;
-    padding: 0 0 0 35rem
+    margin: 0 0 0 35rem
 }
 
 .login-btn:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .signup-btn{
