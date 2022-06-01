@@ -47,12 +47,16 @@ body{
     display: inline-block;
     font-size: 0.9rem;
     color: hsl(0 0% 100%);
-    margin: 0 1.5rem 0 0;
+    margin: 0 1rem 0 0;
 }
 
 .nav-bar ul li img{
     display: inline-block;
     padding: 0 0 0 0.4rem;
+}
+
+.hambuger-menu{
+    visibility: hidden;
 }
 
 .side-bar1{
@@ -405,5 +409,38 @@ footer{
 }
 
 @media (max-width: 500px){
-    
+    #nav-div{
+        max-width: 100%;
+        min-height: 50rem;
+    }
+
+    .logo-nav{
+        margin: 4rem 0 0 2rem;
+        width: 18%;
+    }
+
+    .nav-img{
+        background-size: 20rem;
+        background-position: center;
+        width: 100%;
+        min-height: 50rem;
+    }
+
+    .nav-bar ul li a{
+        display: none;
+    }
+
+    .signup-btn{
+        visibility: hidden;
+    }
+
+    .login-btn{
+        visibility: hidden;
+    }
+
+    .hambuger-menu{
+        visibility: visible;
+        border: 1px solid red;
+        margin: 0 20rem 0 0;
+    }
 }
