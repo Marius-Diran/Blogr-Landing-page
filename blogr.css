@@ -56,7 +56,9 @@ body{
 }
 
 .breaker{
+    display: inline-block;
     visibility: hidden;
+    border: 1px solid red;
 }
 
 .hambuger-menu{
@@ -439,7 +441,7 @@ footer{
         margin: 2rem auto 0;
         background-color: hsl(0 0% 100%);
         width: 85%;
-        height: 30rem;
+        min-height: 32rem;
         display: flex;
         justify-content: center;
         box-shadow: 0rem 0.5rem 15px hsla(0, 0%, 0%, 0.6);
@@ -465,6 +467,9 @@ footer{
     }
 
     .breaker{
+        display: inline-block;
+        min-width: 100%;
+        border: 1px solid red;
         visibility: visible;
         margin: 3rem 0 0 0;
         max-width: 100%;
@@ -473,7 +478,6 @@ footer{
     .login-btn{
         color: hsl(0, 0%, 0%);
         max-width: 100%;
-        border: 1px solid blue;
         font-size: 1.3rem;
         display: block;
         margin: 3rem 10rem 0 10rem;
@@ -487,7 +491,7 @@ footer{
         color: hsl(0 0% 100%);
         font-size: 1.3rem;
         display: block;
-        margin: 2rem 0 0 7.4rem;
+        margin: 2rem 0 4rem 7.4rem;
     }
 
     .hambuger-menu{
@@ -498,14 +502,31 @@ footer{
         left: 18rem;
     }
 
-    .side-bar1{
-        visibility: visible;
-    }
-
     .side-bar1 ul{
         background-color: rgb(235, 235, 235);
-        margin: -40rem auto 0;
+        margin: -43rem auto 3rem;
         min-width: 60%;
+    }
+
+    .side-bar1 ul li a{
+        font-size: 1rem;
+        padding: 0 0 0 6rem;
+    }
+
+    .side-bar1 ul li:nth-child(2){
+        padding: 0.6rem 0 0 1.5rem;
+    }
+
+    .side-bar1 ul li:nth-child(3){
+        padding: 0.6rem 0 0 0.6rem;
+    }
+
+    .side-bar1 ul li:nth-child(4){
+        padding: 0.6rem 0 0 1.5rem;
+    }
+
+    .side-bar1 ul li:last-child{
+        padding: 0.6rem 0 0 1.1rem;
     }
 
     #nav-div h2{

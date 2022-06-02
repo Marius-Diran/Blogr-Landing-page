@@ -1,6 +1,7 @@
 let firstBar = document.querySelector(".pro");
 let dropDown = document.querySelector(".side-bar1");
 let icon1 = document.querySelector(".arrow1")
+let breaker = document.querySelector(".breaker");
 let remote = document.querySelector("#remote");
 remote = true;
 firstBar.addEventListener("click", showme1)
@@ -11,12 +12,14 @@ firstBar.addEventListener("click", showme1)
             dropDown.style.transition = ".1s ease-in";
             firstBar.style.textDecoration = "Underline";
             icon1.style.transform = "rotate(180deg)";
+            breaker.style.margin = "14rem 0 0 0";
             remote =false
         } else if (remote==false){
             dropDown.style.visibility = "hidden";
             dropDown.style.transition = ".1s ease out";
             firstBar.style.textDecoration = "none";
             icon1.style.transform = "rotate(0deg)";
+            breaker.style.margin = "4rem 0 0 0";
             remote = true;
         }
     }
