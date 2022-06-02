@@ -56,9 +56,8 @@ body{
 }
 
 .breaker{
-    display: inline-block;
-    visibility: hidden;
-    border: 1px solid red;
+    border-bottom: 2px solid black;
+    display: none;
 }
 
 .hambuger-menu{
@@ -432,7 +431,7 @@ footer{
     .nav-img{
         background-size: 20rem;
         background-position: center;
-        width: 100%;
+        max-width: 100%;
         min-height: 50rem;
     }
 
@@ -440,7 +439,7 @@ footer{
         border-radius: 0.5rem;
         margin: 2rem auto 0;
         background-color: hsl(0 0% 100%);
-        width: 85%;
+        max-width: 85%;
         min-height: 32rem;
         display: flex;
         justify-content: center;
@@ -467,12 +466,8 @@ footer{
     }
 
     .breaker{
-        display: inline-block;
-        min-width: 100%;
-        border: 1px solid red;
-        visibility: visible;
-        margin: 3rem 0 0 0;
-        max-width: 100%;
+        display: block;
+        margin: 2rem 0 4rem 4rem;
     }
 
     .login-btn{
