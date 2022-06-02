@@ -454,7 +454,8 @@ footer{
 
     .nav-bar ul li a{
         font-size: 1.5rem;
-        padding: 2.5rem 0 0 8.5rem;
+        margin: 2.5rem 0 0 8.5rem;
+        max-width: 100%;
         color: hsl(0, 0%, 0%);
         font-weight: 600;
     }
@@ -471,15 +472,22 @@ footer{
 
     .login-btn{
         color: hsl(0, 0%, 0%);
-        font-size: 1.6rem;
+        max-width: 100%;
+        border: 1px solid blue;
+        font-size: 1.3rem;
         display: block;
         margin: 3rem 10rem 0 10rem;
     }
 
     .signup-btn{
-        background-color: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-        width: 20%;
+        background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+        min-width: 36%;
+        height: 3rem;
+        border-radius: 4rem;
+        color: hsl(0 0% 100%);
+        font-size: 1.3rem;
         display: block;
+        margin: 2rem 0 0 7.4rem;
     }
 
     .hambuger-menu{
@@ -488,6 +496,16 @@ footer{
         max-width: 100%;
         height: 1.7rem;
         left: 18rem;
+    }
+
+    .side-bar1{
+        visibility: visible;
+    }
+
+    .side-bar1 ul{
+        background-color: rgb(235, 235, 235);
+        margin: -40rem auto 0;
+        min-width: 60%;
     }
 
     #nav-div h2{
