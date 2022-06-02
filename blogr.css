@@ -55,7 +55,15 @@ body{
     padding: 0 0 0 0.4rem;
 }
 
+.breaker{
+    visibility: hidden;
+}
+
 .hambuger-menu{
+    position: relative;
+    max-width: 100%;
+    top: -0.5rem;
+    left: 65rem;
     visibility: hidden;
 }
 
@@ -426,21 +434,50 @@ footer{
         min-height: 50rem;
     }
 
+    .nav-bar{
+        border: 1px solid gold;
+        margin: 2rem auto 0;
+        background-color: hsl(0 0% 100%);
+        width: 85%;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-bar ul{
+        border: 1px solid black;
+        max-width: 100%;
+        margin: 3rem 0 0 0;
+        display: block;
+    }
+
     .nav-bar ul li a{
-        display: none;
+        color: hsl(0, 0%, 0%);
+    }
+
+    .breaker{
+        visibility: visible;
     }
 
     .signup-btn{
-        visibility: hidden;
+        display: block;
     }
 
     .login-btn{
-        visibility: hidden;
+        border: 1px solid green;
+        display: block;
+        margin: 0 -20rem 0 0;
     }
 
     .hambuger-menu{
-        visibility: visible;
         border: 1px solid red;
-        margin: 0 20rem 0 0;
+        visibility: visible;
+        max-width: 100%;
+        height: 1.7rem;
+        left: 18rem;
+    }
+
+    #nav-div h2{
+        margin: 0 0 0 0;
     }
 }
