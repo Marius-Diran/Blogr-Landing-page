@@ -60,11 +60,6 @@ body{
     display: none;
 }
 
-.breaker2{
-    border-bottom: 1px solid hsl(240, 2%, 79%);
-    display: none;
-}
-
 .hambuger-menu{
     position: relative;
     max-width: 100%;
@@ -526,11 +521,6 @@ footer{
 
     .side-bar1 ul li:last-child{
         padding: 0.6rem 0 0 1.1rem;
-    }
-
-    .breaker2{
-        /* display: block; */
-        margin: 3rem 0 0 0;
     }
 
     .side-bar2 ul{

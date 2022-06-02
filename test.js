@@ -28,7 +28,6 @@ firstBar.addEventListener("click", showme1)
 let secondBar = document.querySelector(".com");
 let dropDown2 = document.querySelector(".side-bar2");
 let icon2 = document.querySelector(".arrow2")
-let breaker2 = document.querySelector(".breaker2");
 let remote2 = document.querySelector("#remote2");
 remote2 = true;
 secondBar.addEventListener("click", showme2)
@@ -39,18 +38,14 @@ secondBar.addEventListener("click", showme2)
             dropDown2.style.transition = ".1s ease-in";
             secondBar.style.textDecoration = "underline";
             icon2.style.transform = "rotate(180deg)";
-            breaker1.style.display = "none";
-            breaker2.style.display = "block"
-            breaker2.style.margin = "12rem 0 0 0";
+            breaker1.style.margin = "12rem 0 0 0";
             remote2 = false
         } else if (remote2==false){
             dropDown2.style.visibility = "hidden";
             dropDown2.style.transition = ".1s ease out";
             secondBar.style.textDecoration = "none";
             icon2.style.transform = "rotate(0deg)";
-            breaker1.style.display = "block";
-            breaker2.style.display = "none";
-            breaker2.style.margin = "3rem 0 0 0";
+            breaker1.style.margin = "3rem 0 0 0";
             remote2 = true;
         }
     }
