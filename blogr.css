@@ -435,13 +435,14 @@ footer{
     }
 
     .nav-bar{
-        border: 1px solid gold;
+        border-radius: 0.5rem;
         margin: 2rem auto 0;
         background-color: hsl(0 0% 100%);
         width: 85%;
         height: 30rem;
         display: flex;
         justify-content: center;
+        box-shadow: 0rem 0.5rem 15px hsla(0, 0%, 0%, 0.6);
     }
 
     .nav-bar ul{
@@ -452,21 +453,33 @@ footer{
     }
 
     .nav-bar ul li a{
+        font-size: 1.5rem;
+        padding: 2.5rem 0 0 8.5rem;
         color: hsl(0, 0%, 0%);
+        font-weight: 600;
+    }
+
+    .nav-bar ul li img{
+        filter: invert(75%) sepia(12%) saturate(7243%) hue-rotate(315deg) brightness(107%) contrast(94%);
     }
 
     .breaker{
         visibility: visible;
-    }
-
-    .signup-btn{
-        display: block;
+        margin: 3rem 0 0 0;
+        max-width: 100%;
     }
 
     .login-btn{
-        border: 1px solid green;
+        color: hsl(0, 0%, 0%);
+        font-size: 1.6rem;
         display: block;
-        margin: 0 -20rem 0 0;
+        margin: 3rem 10rem 0 10rem;
+    }
+
+    .signup-btn{
+        background-color: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+        width: 20%;
+        display: block;
     }
 
     .hambuger-menu{
