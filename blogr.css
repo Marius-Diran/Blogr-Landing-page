@@ -27,7 +27,6 @@ body{
     background-position: 9rem -50rem;
     min-height: 30rem;
     width: 100%;
-    z-index: 2;
 }
 
 .logo-nav{
@@ -239,17 +238,23 @@ body{
 #theone{
     width: 100%;
     height: 46rem;
+}
+
+.desktop-img{
+    margin: 1rem 0 0 0;
+    width: 100%;
+    height: 46rem;
     background-image: url("Images/illustration-editor-desktop.svg");
     background-size: 40rem;
     background-repeat: no-repeat;
-    background-position: 56rem 5rem;
+    background-position: 56rem 7rem;
 }
 
 #theone h2{
     color: hsl(208, 49%, 24%);
     font-size: 2rem;
     text-align: center;
-    margin: 8rem 0 0 0;
+    margin: -40rem 0 0 0;
 }
 
 #theone h3{
@@ -273,7 +278,7 @@ body{
 }
 
 #secone{
-    margin: 3rem 0 0 0;
+    margin: 10rem 0 0 0;
     width: 100%;
     min-height: 25rem;
     background: linear-gradient(to right, rgb(44, 45, 63), rgb(63, 65, 100));
@@ -282,6 +287,15 @@ body{
 }
 
 .secone-img{
+    background-image: url("Images/bg-pattern-circles.svg");
+    background-size: 60rem;
+    background-repeat: no-repeat;
+    background-position: -8rem -25rem;
+    height: 25rem;
+}
+
+
+.secone-img2{
     background-image: url("Images/illustration-phones.svg");
     background-size: 37rem;
     background-repeat: no-repeat;
@@ -289,14 +303,6 @@ body{
     height: 35rem;
     margin: -32rem 0 0 0;
     
-}
-
-.secone-img2{
-    background-image: url("Images/bg-pattern-circles.svg");
-    background-size: 60rem;
-    background-repeat: no-repeat;
-    background-position: -8rem -25rem;
-    height: 25rem;
 }
 
 #secone h2{
@@ -319,6 +325,10 @@ body{
     background-size: 52rem;
     background-repeat: no-repeat;
     background-position: -15rem 0;
+}
+
+.laptop-img{
+    display: none;
 }
 
 #sectwo h3{
@@ -420,7 +430,7 @@ footer{
 @media (max-width: 500px){
     #nav-div{
         max-width: 100%;
-        min-height: 50rem;
+        min-height: 45rem;
     }
 
     .logo-nav{
@@ -429,10 +439,10 @@ footer{
     }
 
     .nav-img{
-        background-size: 20rem;
-        background-position: center;
+        background-size: 80rem;
+        background-position: -25rem -26rem;
         max-width: 100%;
-        min-height: 50rem;
+        min-height: 45rem;
     }
 
     .nav-bar{
@@ -566,6 +576,177 @@ footer{
     }
 
     #nav-div h2{
+        font-size: 2.5rem;
+        max-width: 75%;
+        margin: -28rem auto 0;
+        font-weight: 600;
+    }
+
+    #nav-div .p-1{
+        max-width: 50%;
+        margin: 1rem auto 0;
+    }
+
+    .start-btn{
+        border-radius: 3rem;
+        min-width: 35%;
+        font-size: 1.2rem;
+        margin: 5rem 0 0 4rem;
+        height: 3rem;
+        font-weight: 600;
+    }
+
+    .learn-btn{
+        border-radius: 3rem;
+        min-width: 35%;
+        font-size: 1.2rem;
+        margin: 5rem 0 0 1rem;
+        height: 3rem;
+        font-weight: 600;
+    }
+
+    #theone{
+        max-width: 100%;
+        height: 70rem;
+        /* flex-direction: column; */
+    }
+
+    #theone h2{
+        max-width: 100%;
+        margin: -25rem auto 0rem;
+    }
+
+    .desktop-img{
+        display: none;
+    }
+
+    .mobile-img{
+        display: block;
+        width: 100%;
+        min-height: 30rem;
+        background-size: 20rem;
+        background-image: url("Images/illustration-editor-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: center 10rem;
+    }
+
+    #theone h3{
+        text-align: center;
+        margin: 22rem auto 0;
+        max-width: 50%;
+    }
+
+    #theone .one1{
+        margin: 2rem auto 0;
+    }
+
+    #theone .p-1{
+        text-align: center;
+        max-width: 60%;
+        margin: 1rem auto 0
+    }
+
+    #theone .p-2{
+        margin: 1rem auto 0;
+        max-width: 60%;
+        text-align: center;
+    }
+
+    #secone{
+        margin: 20rem 0 0 0;
+        height: 43rem;
+        border-top-right-radius: 10rem;
+        border-bottom-left-radius: 8rem;
+    }
+
+    .secone-img{
+        border-top-right-radius: 10rem;
+        max-width: 100%;
+        height: 39rem;
+        background-position: -9rem -16rem;
+        background-size: 45rem;
+    }
+    
+    .secone-img2{
+        margin: -52rem 0 0 0;
+        max-width: 100%;
+        height: 35rem;
+        background-size: 25rem;
+        background-position: center -0.5rem;
+    }
+
+    #secone h2{
+        max-width: 70%;
+        text-align: center;
+        font-size: 2.6rem;
+        margin: -6rem auto 0rem;
+    }
+
+    #secone .p-1{
+        text-align: center;
+        margin: 2rem auto 0;
+        min-width: 60%;
+        line-height: 1.8rem;
+    }
+
+    #sectwo{
+        height: 90rem;
+        background-image: none;
+    }
+
+    .laptop-img{
+        display: block;
+        background-image: url("Images/illustration-laptop-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        height: 30rem;
+    }
+
+    #sectwo h3{
+        display: block;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto 0;
+        font-size: 2rem;
+    }
+
+    #sectwo .p-1{
+        margin: 1rem auto 0;
+        min-width: 60%;
+        line-height: 1.7rem;
+        text-align: center;
+    }
+
+    #sectwo .h1{
+        margin: 3rem auto 0;
+    }
+
+    #sectwo .p-2{
+        margin: 1rem auto 0;
+        min-width: 60%;
+        text-align: center;
+        line-height: 1.7rem;
+    }
+
+    footer{
+        height: 100rem;
+    }
+
+    .a1{
+        display: block;
+        margin: 10rem 0 0 0;
+    }
+
+    .list1{
+        margin: -10rem 0 0 0;
+    }
+
+    .list2{
+        margin: 0 0 0 0;
+    }
+
+    .list3{
         margin: 0 0 0 0;
     }
 }
