@@ -63,12 +63,14 @@ thirdBar.addEventListener("click", showme3);
             dropDown3.style.transition = ".1s ease-in"
             thirdBar.style.textDecoration = "underline"
             icon3.style.transform = "rotate(180deg)"
+            breaker1.style.margin = "9rem 0 0 0";
             remote3 = false;
         } else if (remote3==false){
             dropDown3.style.visibility = "hidden";
             dropDown3.style.transition = ".1s ease-out"
             thirdBar.style.textDecoration = "none"
             icon3.style.transform = "rotate(0deg)"
+            breaker1.style.margin = "3rem 0 0 0";
             remote3 = true;
         }
     }

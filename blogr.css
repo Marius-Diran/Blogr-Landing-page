@@ -436,6 +436,7 @@ footer{
     }
 
     .nav-bar{
+        visibility: hidden;
         border-radius: 0.5rem;
         margin: 2rem auto 0;
         background-color: hsl(0 0% 100%);
@@ -545,6 +546,23 @@ footer{
 
     .side-bar2 ul li:last-child{
         padding: 0.6rem 0 0 0.7rem;
+    }
+
+    .side-bar3 ul{
+        box-shadow: none;
+        background-color: rgb(239, 239, 239);
+        margin: -9rem auto 3rem;
+        min-width: 60%;
+        height: 6.2rem;
+    }
+
+    .side-bar3 ul li a{
+        font-size: 1rem;
+        padding: 0 0 0 6.5rem;
+    }
+
+    .side-bar3 ul li:nth-child(2){
+        padding: 0.6rem 0 0 0.5rem;
     }
 
     #nav-div h2{
