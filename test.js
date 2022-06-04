@@ -63,7 +63,7 @@ thirdBar.addEventListener("click", showme3);
             dropDown3.style.transition = ".1s ease-in"
             thirdBar.style.textDecoration = "underline"
             icon3.style.transform = "rotate(180deg)"
-            breaker1.style.margin = "9rem 0 0 0";
+            breaker1.style.margin = "10rem 0 0 0";
             remote3 = false;
         } else if (remote3==false){
             dropDown3.style.visibility = "hidden";
@@ -74,3 +74,31 @@ thirdBar.addEventListener("click", showme3);
             remote3 = true;
         }
     }
+
+    let navBar = document.querySelector(".hambuger-menu");
+    let dropDown4 = document.querySelector(".nav-bar");
+    let hideh2 = document.querySelector(".drophead");
+    let hidep = document.querySelector("#para");
+    let hidestart = document.querySelector(".start-btn");
+    let hidelearn =document.querySelector(".learn-btn")
+    let remote4 = document.querySelector("#menu-remote");
+    remote4 = true;
+    navBar.addEventListener("click", showme4);
+
+        function showme4(){
+            if (remote4==true){
+                dropDown4.style.visibility = "visible";
+                hideh2.style.visibility = "hidden";
+                hidep.style.visibility = "hidden";
+                hidestart.style.visibility = "hidden";
+                hidelearn.style.visibility = "hidden";
+                remote4 = false;
+            } else if (remote4==false){
+                dropDown4.style.visibility = "hidden";
+                hideh2.style.visibility = "visible";
+                hidep.style.visibility = "visible";
+                hidestart.style.visibility = "visible";
+                hidelearn.style.visibility = "visible";
+                remote4 = true;
+            }
+        }
