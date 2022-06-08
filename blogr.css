@@ -31,7 +31,7 @@ body{
 }
 
 .logo-nav{
-    height: 3rem;
+    height: 2.5rem;
     margin: 2rem 0 0 4rem;
 }
 
@@ -103,7 +103,7 @@ body{
 }
 
 .hambuger-menu{
-    border: 1px solid red;
+    visibility: hidden;
     display: flex;
     margin: 2.5rem 0 0 -5rem;
     height: 2rem;
@@ -201,27 +201,40 @@ body{
     font-size: 0.9rem;
 }
 
-#nav-div h2{
-    margin: 8rem 0 0 0;
-    text-align: center;
+.nav-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 20rem;
+    min-width: 60rem;
+    margin: 9rem 0 0 -68rem;
+}
+
+.nav-img h2{
+    border: 1px solid red;
+    /* margin: 9rem 0 0 -68rem; */
+    min-width: 60%;
     color: hsl(0 0% 100%);
     font-size: 3.5rem;
     font-weight: 300;
 }
 
 #nav-div .p-1{
+    min-width: 26%;
+    height: fit-content;
     text-align: center;
-    margin: 1rem 0 0 0;
+    /* margin: 15rem 0 0 -37rem; */
     color:rgb(219, 219, 219)
 }
 
 .start-btn{
-    margin: 2rem 0 0 34rem;
+    margin: 20rem 0 0 -20rem;
     border: none;
     border-radius: 1rem;
     background: hsl(0 0% 100%);
     color: hsl(13, 100%, 72%);
-    width: 9%;
+    min-width: 9%;
     height: 2.2rem;
 }
 
@@ -232,11 +245,11 @@ body{
 }
 
 .learn-btn{
-    margin: 0 0 0 1rem;
+    margin: 20rem 0 0 1rem;
     color: hsl(0 0% 100%);
     background: none;
     border: 1px solid hsl(0 0% 100%);
-    width: 9%;
+    min-width: 9%;
     height: 2.2rem;
     border-radius: 1rem;
 }
@@ -588,9 +601,10 @@ footer{
     }
 
     #nav-div h2{
+        border: 1px solid black;
         font-size: 2.5rem;
         max-width: 75%;
-        margin: -28rem auto 0;
+        margin: 10rem 0 0 -25rem;
         font-weight: 600;
     }
 
